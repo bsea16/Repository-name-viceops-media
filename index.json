@@ -1,0 +1,951 @@
+{
+  "library": "ViceOps6 Official GTA VI Media",
+  "build_date_utc": "2026-07-20T18:13:49.821116+00:00",
+  "source": "Official Rockstar Games CDN bundles (media.rockstargames.com)",
+  "asset_policy": "Official promotional assets only. No leaks / fan art / AI / edits.",
+  "total_images": 47,
+  "themes": [
+    "action",
+    "beaches",
+    "boats",
+    "general_promo",
+    "jason",
+    "lucia",
+    "nightlife",
+    "police",
+    "swamps",
+    "vehicles",
+    "vice_city_skyline",
+    "wildlife"
+  ],
+  "usage": {
+    "match_by_tags": "Each record has 3-5 lowercase tags. Match post topic -> tag set.",
+    "n8n": "Load library/index.json, filter by tags, return absolute_path.",
+    "db": "Import index.json into a table; index tags with GIN/array for lookups."
+  },
+  "tags_vocabulary": [
+    "action",
+    "ambrosia",
+    "animals",
+    "artwork",
+    "beach",
+    "boats",
+    "boobie",
+    "brian_heder",
+    "buggy",
+    "cal_hampton",
+    "cars",
+    "character",
+    "city",
+    "club",
+    "coast",
+    "collection",
+    "couple",
+    "cover_art",
+    "crime",
+    "custom",
+    "day",
+    "drequan",
+    "electric",
+    "fashion",
+    "garage",
+    "general",
+    "grassrivers",
+    "grotti",
+    "jason",
+    "law_enforcement",
+    "leonida_keys",
+    "lucia",
+    "motel",
+    "mount_kalaga",
+    "nature",
+    "neon",
+    "night",
+    "nightlife",
+    "ocean",
+    "official",
+    "offroad",
+    "police",
+    "port",
+    "port_gellhorn",
+    "postcard",
+    "promo",
+    "protagonist",
+    "protagonists",
+    "raul",
+    "real_dimez",
+    "retro",
+    "skyline",
+    "squalo",
+    "story",
+    "style",
+    "swamp",
+    "ultimate_edition",
+    "urban",
+    "vapid",
+    "vehicles",
+    "vice_city",
+    "vintage",
+    "water",
+    "wetlands",
+    "wildlife"
+  ],
+  "images": [
+    {
+      "id": "lucia_01",
+      "theme": "lucia",
+      "filename": "lucia_01.jpg",
+      "relative_path": "lucia/lucia_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/lucia/lucia_01.jpg",
+      "tags": [
+        "lucia",
+        "character",
+        "protagonist",
+        "vice_city"
+      ],
+      "caption": "Lucia - official character screenshot",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 301343,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "lucia_artwork_01",
+      "theme": "lucia",
+      "filename": "lucia_artwork_01.jpg",
+      "relative_path": "lucia/lucia_artwork_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/lucia/lucia_artwork_01.jpg",
+      "tags": [
+        "lucia",
+        "character",
+        "artwork",
+        "protagonist"
+      ],
+      "caption": "Lucia - official promotional artwork",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 3629756,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "lucia_jason_01",
+      "theme": "lucia",
+      "filename": "lucia_jason_01.jpg",
+      "relative_path": "lucia/lucia_jason_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/lucia/lucia_jason_01.jpg",
+      "tags": [
+        "lucia",
+        "jason",
+        "couple",
+        "protagonists"
+      ],
+      "caption": "Lucia & Jason - official key art 01",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 1891739,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "lucia_jason_03",
+      "theme": "lucia",
+      "filename": "lucia_jason_03.jpg",
+      "relative_path": "lucia/lucia_jason_03.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/lucia/lucia_jason_03.jpg",
+      "tags": [
+        "lucia",
+        "jason",
+        "couple",
+        "protagonists"
+      ],
+      "caption": "Lucia & Jason - official key art 03",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 1374434,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "jason_01",
+      "theme": "jason",
+      "filename": "jason_01.jpg",
+      "relative_path": "jason/jason_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/jason/jason_01.jpg",
+      "tags": [
+        "jason",
+        "character",
+        "protagonist",
+        "vice_city"
+      ],
+      "caption": "Jason - official character screenshot",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 439420,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "jason_artwork_01",
+      "theme": "jason",
+      "filename": "jason_artwork_01.jpg",
+      "relative_path": "jason/jason_artwork_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/jason/jason_artwork_01.jpg",
+      "tags": [
+        "jason",
+        "character",
+        "artwork",
+        "protagonist"
+      ],
+      "caption": "Jason - official promotional artwork",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 3629756,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "jason_lucia_02",
+      "theme": "jason",
+      "filename": "jason_lucia_02.jpg",
+      "relative_path": "jason/jason_lucia_02.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/jason/jason_lucia_02.jpg",
+      "tags": [
+        "jason",
+        "lucia",
+        "couple",
+        "protagonists"
+      ],
+      "caption": "Jason & Lucia - official key art 02",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 2237273,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "jason_lucia_motel",
+      "theme": "jason",
+      "filename": "jason_lucia_motel.jpg",
+      "relative_path": "jason/jason_lucia_motel.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/jason/jason_lucia_motel.jpg",
+      "tags": [
+        "jason",
+        "lucia",
+        "motel",
+        "story"
+      ],
+      "caption": "Jason & Lucia at the motel - official artwork",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 1650340,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "vice_city_skyline_01",
+      "theme": "vice_city_skyline",
+      "filename": "vice_city_skyline_01.jpg",
+      "relative_path": "vice_city_skyline/vice_city_skyline_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/vice_city_skyline/vice_city_skyline_01.jpg",
+      "tags": [
+        "vice_city",
+        "skyline",
+        "city",
+        "urban",
+        "day"
+      ],
+      "caption": "Vice City skyline - official screenshot",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 492097,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "vice_city_postcard",
+      "theme": "vice_city_skyline",
+      "filename": "vice_city_postcard.jpg",
+      "relative_path": "vice_city_skyline/vice_city_postcard.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/vice_city_skyline/vice_city_postcard.jpg",
+      "tags": [
+        "vice_city",
+        "skyline",
+        "postcard",
+        "city",
+        "day"
+      ],
+      "caption": "Vice City postcard - official artwork",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 2169769,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "vice_city_style_01",
+      "theme": "vice_city_skyline",
+      "filename": "vice_city_style_01.jpg",
+      "relative_path": "vice_city_skyline/vice_city_style_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/vice_city_skyline/vice_city_style_01.jpg",
+      "tags": [
+        "vice_city",
+        "style",
+        "fashion",
+        "urban"
+      ],
+      "caption": "Vice City style - official Ultimate Edition art",
+      "source_bundle": "GTAVI_Ultimate_Edition_Benefits",
+      "file_size_bytes": 1892605,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "beach_01",
+      "theme": "beaches",
+      "filename": "beach_01.jpg",
+      "relative_path": "beaches/beach_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/beaches/beach_01.jpg",
+      "tags": [
+        "beach",
+        "vice_city",
+        "ocean",
+        "day",
+        "coast"
+      ],
+      "caption": "Vice City beach - official screenshot",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 1247197,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "beach_keys",
+      "theme": "beaches",
+      "filename": "beach_keys.jpg",
+      "relative_path": "beaches/beach_keys.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/beaches/beach_keys.jpg",
+      "tags": [
+        "beach",
+        "leonida_keys",
+        "ocean",
+        "coast",
+        "day"
+      ],
+      "caption": "Leonida Keys beach - official postcard",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 2483645,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "beach_02",
+      "theme": "beaches",
+      "filename": "beach_02.jpg",
+      "relative_path": "beaches/beach_02.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/beaches/beach_02.jpg",
+      "tags": [
+        "beach",
+        "vice_city",
+        "ocean",
+        "coast",
+        "day"
+      ],
+      "caption": "Vice City coastline - official screenshot",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 561227,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "swamp_grassrivers",
+      "theme": "swamps",
+      "filename": "swamp_grassrivers.jpg",
+      "relative_path": "swamps/swamp_grassrivers.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/swamps/swamp_grassrivers.jpg",
+      "tags": [
+        "swamp",
+        "grassrivers",
+        "nature",
+        "wetlands",
+        "day"
+      ],
+      "caption": "Grassrivers swamp - official postcard",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 2404653,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "swamp_01",
+      "theme": "swamps",
+      "filename": "swamp_01.jpg",
+      "relative_path": "swamps/swamp_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/swamps/swamp_01.jpg",
+      "tags": [
+        "swamp",
+        "grassrivers",
+        "nature",
+        "wetlands",
+        "day"
+      ],
+      "caption": "Grassrivers wetlands - official screenshot",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 861338,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "swamp_02",
+      "theme": "swamps",
+      "filename": "swamp_02.jpg",
+      "relative_path": "swamps/swamp_02.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/swamps/swamp_02.jpg",
+      "tags": [
+        "swamp",
+        "grassrivers",
+        "nature",
+        "wetlands",
+        "day"
+      ],
+      "caption": "Grassrivers wetlands - official screenshot",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 884187,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "police_stanier_01",
+      "theme": "police",
+      "filename": "police_stanier_01.jpg",
+      "relative_path": "police/police_stanier_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/police/police_stanier_01.jpg",
+      "tags": [
+        "police",
+        "law_enforcement",
+        "vehicles",
+        "vice_city"
+      ],
+      "caption": "Vapid Stanier police cruiser - official Vintage Vice City pack",
+      "source_bundle": "GTAVI_Vintage_Vice_City_Pack",
+      "file_size_bytes": 2017811,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "police_stanier_02",
+      "theme": "police",
+      "filename": "police_stanier_02.jpg",
+      "relative_path": "police/police_stanier_02.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/police/police_stanier_02.jpg",
+      "tags": [
+        "police",
+        "law_enforcement",
+        "vehicles",
+        "vice_city"
+      ],
+      "caption": "Vapid Stanier police cruiser - official Vintage Vice City pack",
+      "source_bundle": "GTAVI_Vintage_Vice_City_Pack",
+      "file_size_bytes": 1477057,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "police_stanier_03",
+      "theme": "police",
+      "filename": "police_stanier_03.jpg",
+      "relative_path": "police/police_stanier_03.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/police/police_stanier_03.jpg",
+      "tags": [
+        "police",
+        "law_enforcement",
+        "vehicles",
+        "vice_city"
+      ],
+      "caption": "Vapid Stanier police cruiser - official Vintage Vice City pack",
+      "source_bundle": "GTAVI_Vintage_Vice_City_Pack",
+      "file_size_bytes": 1796526,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "vehicle_wyman_01",
+      "theme": "vehicles",
+      "filename": "vehicle_wyman_01.jpg",
+      "relative_path": "vehicles/vehicle_wyman_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/vehicles/vehicle_wyman_01.jpg",
+      "tags": [
+        "vehicles",
+        "cars",
+        "collection",
+        "vice_city"
+      ],
+      "caption": "Wyman car collection - official Ultimate Edition art",
+      "source_bundle": "GTAVI_Ultimate_Edition_Benefits",
+      "file_size_bytes": 1972072,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "vehicle_cheetah_01",
+      "theme": "vehicles",
+      "filename": "vehicle_cheetah_01.jpg",
+      "relative_path": "vehicles/vehicle_cheetah_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/vehicles/vehicle_cheetah_01.jpg",
+      "tags": [
+        "vehicles",
+        "cars",
+        "grotti",
+        "vice_city"
+      ],
+      "caption": "Grotti Cheetah - official Ultimate Edition art",
+      "source_bundle": "GTAVI_Ultimate_Edition_Benefits",
+      "file_size_bytes": 1864182,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "vehicle_buggy_01",
+      "theme": "vehicles",
+      "filename": "vehicle_buggy_01.jpg",
+      "relative_path": "vehicles/vehicle_buggy_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/vehicles/vehicle_buggy_01.jpg",
+      "tags": [
+        "vehicles",
+        "cars",
+        "buggy",
+        "offroad"
+      ],
+      "caption": "Vapid Buggy - official Ultimate Edition art",
+      "source_bundle": "GTAVI_Ultimate_Edition_Benefits",
+      "file_size_bytes": 2040495,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "vehicle_stanier_01",
+      "theme": "vehicles",
+      "filename": "vehicle_stanier_01.jpg",
+      "relative_path": "vehicles/vehicle_stanier_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/vehicles/vehicle_stanier_01.jpg",
+      "tags": [
+        "vehicles",
+        "cars",
+        "vapid",
+        "vice_city"
+      ],
+      "caption": "Vapid Stanier - official Vintage Vice City pack",
+      "source_bundle": "GTAVI_Vintage_Vice_City_Pack",
+      "file_size_bytes": 2017811,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "vehicle_fang_01",
+      "theme": "vehicles",
+      "filename": "vehicle_fang_01.jpg",
+      "relative_path": "vehicles/vehicle_fang_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/vehicles/vehicle_fang_01.jpg",
+      "tags": [
+        "vehicles",
+        "cars",
+        "electric",
+        "vice_city"
+      ],
+      "caption": "Electric Fang - official Ultimate Edition art",
+      "source_bundle": "GTAVI_Ultimate_Edition_Benefits",
+      "file_size_bytes": 1914049,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "vehicle_safehouse_01",
+      "theme": "vehicles",
+      "filename": "vehicle_safehouse_01.jpg",
+      "relative_path": "vehicles/vehicle_safehouse_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/vehicles/vehicle_safehouse_01.jpg",
+      "tags": [
+        "vehicles",
+        "cars",
+        "garage",
+        "vice_city"
+      ],
+      "caption": "Safehouse vehicles - official Ultimate Edition art",
+      "source_bundle": "GTAVI_Ultimate_Edition_Benefits",
+      "file_size_bytes": 1924231,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "vehicle_rideout_01",
+      "theme": "vehicles",
+      "filename": "vehicle_rideout_01.jpg",
+      "relative_path": "vehicles/vehicle_rideout_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/vehicles/vehicle_rideout_01.jpg",
+      "tags": [
+        "vehicles",
+        "cars",
+        "custom",
+        "vice_city"
+      ],
+      "caption": "Rideout Customs - official Ultimate Edition art",
+      "source_bundle": "GTAVI_Ultimate_Edition_Benefits",
+      "file_size_bytes": 1851292,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "vehicle_ganado_01",
+      "theme": "vehicles",
+      "filename": "vehicle_ganado_01.jpg",
+      "relative_path": "vehicles/vehicle_ganado_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/vehicles/vehicle_ganado_01.jpg",
+      "tags": [
+        "vehicles",
+        "cars",
+        "retro",
+        "custom"
+      ],
+      "caption": "Vapid Ganado retro build - official Ultimate Edition art",
+      "source_bundle": "GTAVI_Ultimate_Edition_Benefits",
+      "file_size_bytes": 1844104,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "nightlife_01",
+      "theme": "nightlife",
+      "filename": "nightlife_01.jpg",
+      "relative_path": "nightlife/nightlife_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/nightlife/nightlife_01.jpg",
+      "tags": [
+        "nightlife",
+        "vice_city",
+        "night",
+        "neon",
+        "city"
+      ],
+      "caption": "Vice City nightlife - official screenshot",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 528847,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "nightlife_02",
+      "theme": "nightlife",
+      "filename": "nightlife_02.jpg",
+      "relative_path": "nightlife/nightlife_02.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/nightlife/nightlife_02.jpg",
+      "tags": [
+        "nightlife",
+        "vice_city",
+        "night",
+        "neon",
+        "city"
+      ],
+      "caption": "Vice City at night - official screenshot",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 938571,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "nightlife_club",
+      "theme": "nightlife",
+      "filename": "nightlife_club.jpg",
+      "relative_path": "nightlife/nightlife_club.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/nightlife/nightlife_club.jpg",
+      "tags": [
+        "nightlife",
+        "club",
+        "cal_hampton",
+        "vice_city"
+      ],
+      "caption": "Club nightlife - official artwork (Cal Hampton)",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 1781348,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "action_01",
+      "theme": "action",
+      "filename": "action_01.jpg",
+      "relative_path": "action/action_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/action/action_01.jpg",
+      "tags": [
+        "action",
+        "raul",
+        "crime",
+        "vice_city"
+      ],
+      "caption": "Action scene - official screenshot (Raul Bautista)",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 266164,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "action_02",
+      "theme": "action",
+      "filename": "action_02.jpg",
+      "relative_path": "action/action_02.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/action/action_02.jpg",
+      "tags": [
+        "action",
+        "real_dimez",
+        "crime",
+        "vice_city"
+      ],
+      "caption": "Action scene - official screenshot (Real Dimez)",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 697676,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "action_03",
+      "theme": "action",
+      "filename": "action_03.jpg",
+      "relative_path": "action/action_03.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/action/action_03.jpg",
+      "tags": [
+        "action",
+        "drequan",
+        "crime",
+        "vice_city"
+      ],
+      "caption": "Action scene - official screenshot (Dre'Quan Priest)",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 752480,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "action_04",
+      "theme": "action",
+      "filename": "action_04.jpg",
+      "relative_path": "action/action_04.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/action/action_04.jpg",
+      "tags": [
+        "action",
+        "boobie",
+        "crime",
+        "vice_city"
+      ],
+      "caption": "Action scene - official screenshot (Boobie Ike)",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 1535353,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "wildlife_ambrosia",
+      "theme": "wildlife",
+      "filename": "wildlife_ambrosia.jpg",
+      "relative_path": "wildlife/wildlife_ambrosia.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/wildlife/wildlife_ambrosia.jpg",
+      "tags": [
+        "wildlife",
+        "ambrosia",
+        "nature",
+        "animals"
+      ],
+      "caption": "Ambrosia wildlife - official postcard",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 2031915,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "wildlife_01",
+      "theme": "wildlife",
+      "filename": "wildlife_01.jpg",
+      "relative_path": "wildlife/wildlife_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/wildlife/wildlife_01.jpg",
+      "tags": [
+        "wildlife",
+        "ambrosia",
+        "nature",
+        "animals"
+      ],
+      "caption": "Ambrosia wildlife - official screenshot",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 715141,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "wildlife_02",
+      "theme": "wildlife",
+      "filename": "wildlife_02.jpg",
+      "relative_path": "wildlife/wildlife_02.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/wildlife/wildlife_02.jpg",
+      "tags": [
+        "wildlife",
+        "ambrosia",
+        "nature",
+        "animals"
+      ],
+      "caption": "Ambrosia wildlife - official screenshot",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 633337,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "boat_squalo_01",
+      "theme": "boats",
+      "filename": "boat_squalo_01.jpg",
+      "relative_path": "boats/boat_squalo_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/boats/boat_squalo_01.jpg",
+      "tags": [
+        "boats",
+        "squalo",
+        "water",
+        "vice_city"
+      ],
+      "caption": "Squalo boat - official Ultimate Edition art",
+      "source_bundle": "GTAVI_Ultimate_Edition_Benefits",
+      "file_size_bytes": 1949273,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "boat_squalo_02",
+      "theme": "boats",
+      "filename": "boat_squalo_02.jpg",
+      "relative_path": "boats/boat_squalo_02.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/boats/boat_squalo_02.jpg",
+      "tags": [
+        "boats",
+        "squalo",
+        "water",
+        "vice_city"
+      ],
+      "caption": "Squalo boat - official Ultimate Edition art",
+      "source_bundle": "GTAVI_Ultimate_Edition_Benefits",
+      "file_size_bytes": 1503134,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "boat_port_01",
+      "theme": "boats",
+      "filename": "boat_port_01.jpg",
+      "relative_path": "boats/boat_port_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/boats/boat_port_01.jpg",
+      "tags": [
+        "boats",
+        "port",
+        "water",
+        "vice_city"
+      ],
+      "caption": "Port Gellhorn boats - official screenshot",
+      "source_bundle": "GTAVI_Screenshots",
+      "file_size_bytes": 829686,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "cover_art",
+      "theme": "general_promo",
+      "filename": "cover_art.jpg",
+      "relative_path": "general_promo/cover_art.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/general_promo/cover_art.jpg",
+      "tags": [
+        "general",
+        "cover_art",
+        "official",
+        "promo"
+      ],
+      "caption": "Official GTA VI cover art",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 2593726,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "promo_mount_kalaga",
+      "theme": "general_promo",
+      "filename": "promo_mount_kalaga.jpg",
+      "relative_path": "general_promo/promo_mount_kalaga.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/general_promo/promo_mount_kalaga.jpg",
+      "tags": [
+        "general",
+        "mount_kalaga",
+        "nature",
+        "promo"
+      ],
+      "caption": "Mount Kalaga National Park - official postcard",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 2449314,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "promo_port_gellhorn",
+      "theme": "general_promo",
+      "filename": "promo_port_gellhorn.jpg",
+      "relative_path": "general_promo/promo_port_gellhorn.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/general_promo/promo_port_gellhorn.jpg",
+      "tags": [
+        "general",
+        "port_gellhorn",
+        "city",
+        "promo"
+      ],
+      "caption": "Port Gellhorn - official postcard",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 1825610,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "promo_brian",
+      "theme": "general_promo",
+      "filename": "promo_brian.jpg",
+      "relative_path": "general_promo/promo_brian.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/general_promo/promo_brian.jpg",
+      "tags": [
+        "general",
+        "brian_heder",
+        "character",
+        "promo"
+      ],
+      "caption": "Brian Heder - official artwork",
+      "source_bundle": "GTAVI_Artwork_Wallpapers",
+      "file_size_bytes": 2255364,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "promo_ultimate_01",
+      "theme": "general_promo",
+      "filename": "promo_ultimate_01.jpg",
+      "relative_path": "general_promo/promo_ultimate_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/general_promo/promo_ultimate_01.jpg",
+      "tags": [
+        "general",
+        "ultimate_edition",
+        "official",
+        "promo"
+      ],
+      "caption": "GTA VI Ultimate Edition promo art",
+      "source_bundle": "GTAVI_Ultimate_Edition_Benefits",
+      "file_size_bytes": 1772009,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    },
+    {
+      "id": "promo_vintage_01",
+      "theme": "general_promo",
+      "filename": "promo_vintage_01.jpg",
+      "relative_path": "general_promo/promo_vintage_01.jpg",
+      "absolute_path": "C:/Users/bseal/ViceOps6/library/general_promo/promo_vintage_01.jpg",
+      "tags": [
+        "general",
+        "vintage",
+        "vice_city",
+        "promo"
+      ],
+      "caption": "Vintage Vice City pack promo art",
+      "source_bundle": "GTAVI_Vintage_Vice_City_Pack",
+      "file_size_bytes": 1491784,
+      "rights": "Official Rockstar Games asset - promotional use only",
+      "license_note": "Copyright Take-Two/Rockstar Games. Do not redistribute. Promotional use."
+    }
+  ]
+}
